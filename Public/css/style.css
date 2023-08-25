@@ -1,0 +1,192 @@
+/* roots  */
+:root {
+    --loginclr: green;
+    --marque: rgba(18, 160, 25, 0.818);
+}
+
+
+
+
+
+
+/* LOGIN------------------for logo--------------------  */
+.logoImg img {
+    margin-left: 1%;
+    margin-top: 1%;
+    z-index: -1;
+
+}
+
+.logoImg {
+    overflow: hidden;
+}
+
+/* LOGIN---------for text scrolling on the screen --------- */
+.marquee {
+    margin-top: -16px;
+    background-color: var(--marque);
+}
+
+.marquee pre {
+    margin-top: 3px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+/* LOGIN---------------- background image  ----------------*/
+.backImg {
+
+    width: 1550 px;
+    height: 562px;
+    background: url('../images/image10.png');
+    background-size: cover;
+}
+
+.instructions {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+
+}
+
+.instructions:hover {
+    border: 2px solid black;
+}
+
+/* css styling for the form of the login page */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.login {
+    margin: 50px 0px 0px 850px;
+    padding: 40px 50px;
+    max-width: 460px;
+    height: 440px;
+    border-radius: 15px;
+    background-image: url('/images/backimg05.png');
+    box-shadow: 0px 0px 5px #666;
+    background-size: cover;
+    overflow: hidden;
+
+}
+
+.login input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin: 15px 0;
+    padding: 13px 14px;
+    font-size: 16px;
+    border-radius: 2px;
+    font-family: Raleway, sans-serif;
+}
+
+.login input[type=text],
+.login input[type=password] {
+    border: 1px solid #c0c0c0;
+    transition: .2s;
+}
+
+.login input[type=text]:hover {
+    border-color: #69f436;
+    outline: none;
+    transition: all .2s ease-in-out;
+}
+
+.login input[type=submit] {
+    border: none;
+    background: var(--marque);
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+    margin: 20px 0px;
+}
+
+.login input[type=submit]:hover {
+    background-color: var(--loginclr);
+}
+
+.login input[type=submit]:active {
+    background: #F44336;
+}
+
+.login h2 {
+    margin: 20px 0 0;
+    color: var(--loginclr);
+    font-size: 32px;
+    overflow: hidden;
+}
+
+.login p {
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.links {
+    display: table;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #c0c0c0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--loginclr);
+}
+
+.links a {
+    display: table-cell;
+    padding-top: 10px;
+
+}
+
+.links a:first-child {
+    text-align: left;
+    color: green;
+}
+
+.links a:last-child {
+    text-align: right;
+}
+
+.login h2,
+.login p,
+.login a {
+    text-align: center;
+
+}
+
+.login a {
+    text-decoration: none;
+    font-size: .8em;
+}
+
+.login a:visited {
+    color: inherit;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+/*LOGIN --------------- footer login  -------*/
+.footerlogin {
+    background-color: rgba(0, 128, 0, 0.867);
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.footerlogin p {
+    margin-top: 10px;
+}

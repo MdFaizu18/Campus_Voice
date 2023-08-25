@@ -1,0 +1,185 @@
+.navigationBar {
+    background-color: rgb(18, 179, 48);
+    font-size: 20px;
+    font-weight: 600;
+    height: 40pxpx;
+
+}
+
+.navigationBar a {
+    color: rgb(255, 255, 255);
+    
+    padding:2px 30px;
+}
+.navigationBar li:not(:last-child) {
+    border-right: 1px groove rgb(232, 232, 232);
+}
+
+.heroImg{
+    border-radius: 20px;
+}
+
+.contCompose a{
+text-decoration: none;
+/* border: 1px solid rgb(255, 255, 255); */
+border-radius:5px;
+padding: 10px;
+
+font-size: 20px;
+color: white;
+background-color:rgb(18, 179, 48);
+}
+.contCompose{
+    margin-top: 20px;
+    /* box-shadow: 0 0 15px green; */
+}
+
+.headingone{
+   margin: 25px 0px 0px 0px;
+   
+}
+.headingone h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.headingtwo{
+    font-size: 40px;
+    color: #96918e;
+}
+
+.houseIcon{
+    margin-top: -4px;
+    margin-right: 4px;
+}
+
+.composeHeading{
+    height: 50px;
+}
+/* .contents {
+    margin-top: -60px;
+} */
+.contents h1{
+    margin-top: -80px;
+}
+.badge{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+
+.outline{
+    outline: 1px solid green;
+}
+
+.lead{
+    font-weight: 340;
+}
+
+.container1{
+    display:flex;
+    gap: 40px;
+    margin-top: 5%;
+}
+.aboutheading{
+    /* margin-top: 6%; */
+    padding-top: 4%;
+    text-align: center;
+    color:black;
+ text-transform: uppercase;
+    /*word-spacing: 2px; */
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.student{
+    background: url('/images/stdimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 625px; 
+ 
+
+}
+
+.footer1 p{
+   margin-top: -40px;
+}
+.footer2 p{
+    margin-top: 10px;
+    border-bottom: 1px solid black;
+    width: fit-content;
+    margin-left: 500px;
+}
+
+.compose{
+    background: url('/images/composeimg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    
+
+}
+
+.composeform{
+    padding: 15px 10px 0px 10px;
+}
+
+.alertmsg{
+    margin-bottom: -10px;
+    height: 45px;
+    font-size: 20px;
+
+}
+.alertmsg p{
+    margin-top: -10px;
+}
+.alertmsg button{
+    font-size: 12px;
+    margin-top: -5px;
+}
+
+.container2{
+    background: url('/images/backimg03.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.contact{
+    background: url('/images/image09.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 625px;
+    /* overflow-x: hidden; */
+    position: relative;
+   
+}
+.contactcontent1{
+    
+    color: rgb(228, 227, 227);
+   position: absolute;
+    top:510px;
+    left:50px;
+    font-size: 18px;
+
+}
+.contactcontent p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 2%;
+    padding-left: 10px;
+}
+
+.contactcontent2{
+   display: flex;
+   gap:20px;
+   position: absolute;
+   left:1300px;
+   top:550px;
+}
+

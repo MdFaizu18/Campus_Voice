@@ -1,0 +1,52 @@
+.borderbox1{
+ border: 3px solid black;
+ height: fit-content; 
+  position: absolute;
+ top: 90px;
+ left:280px;
+ width: 60vw;
+ padding: 20px 30px;    
+ border-radius: 10px;
+ /* background-image: url('/images/backimg02.png'); */
+ background: white;
+}
+
+.borderbox2{
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 360px; 
+     position: absolute;
+    top: 90px;
+    left:1200px;
+    width: 250PX;
+    padding: 20px 30px;  
+    background: rgba(129, 234, 255, 0.431);
+  }
+
+.adminheading h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5%;
+    margin-left: 280px;
+}
+.marquee1{
+   background-color: rgb(44, 48, 255);
+
+}
+.marquee1 pre {
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.adminbody{
+    background: url('/images/backimg09.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 2000px; 
+    position: relative;
+    display: flex;
+    gap:80px
+    
+}

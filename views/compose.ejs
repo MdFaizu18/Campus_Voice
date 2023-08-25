@@ -1,0 +1,67 @@
+<%-include("partials/header.ejs")%>
+
+
+<div class="p-5 text-center bg-body-tertiary composeHeading">
+    <div class="container py-5 contents">
+      <h1 class="text-body-emphasis"><span style="color: navy;">Campus</span> Voice's</h1>
+      
+    </div>
+  </div>
+
+
+  <!-- ---------------------------------------------------------------------------------------- -->
+<div class="container compose">
+ 
+  <form action="/compose" method="post" class="composeform">
+
+    <div class="mb-3">
+      <label for="exampleFormControlInput1 bold" class="form-label">Name : </label>
+      <input type="text" name="userName" class="form-control outline" id="exampleFormControlInput1" placeholder="Your Name (In Caps*)">
+    </div>
+    
+
+    <label for="exampleFormControlInput1 bold" class="form-label">Current Year :</label>
+    <select class="form-select outline" name="userYear" aria-label="Default select example" required>
+    <option disabled selected>Select Your Current Year</option>
+    <option value="I">I</option>
+    <option value="II">II</option>
+    <option value="III">III</option>
+    <option value="IV">IV</option>
+  </select>
+
+  <br>
+  <label for="exampleFormControlInput1 bold" class="form-label">Degree & Department :</label>
+  
+  <select class="form-select outline" name="userDegree" aria-label="Default select example" required>
+    <option disabled selected >Select Department</option>
+    <option value="BE-CSE">BE-CSE</option>
+    <option value="BE-ECE">BE-ECE</option>
+    <option value="BE-EEE">BE-EEE</option>
+    <option value="BTECH-IT">BTECH-IT</option>
+    <option value="BE-BME">BE-BME</option>
+    <option value="BE-MECH">BE-MECH</option>
+    <option value="BE-CIVIL">BE-CIVIL</option>
+    <option value="BE-AI/ML">BE-AI/ML</option>
+  </select>
+
+  <br>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1 bold" class="form-label">Message & Feedback :</label>
+    <textarea class="form-control outline" name="userMessage" id="exampleFormControlTextarea1" rows="4" placeholder="Enter Something"></textarea>
+  </div>
+
+  
+  <div class="button">
+  <button class="btn btn-success btn" type="submit" name="button">Convey..</button>
+  </div>
+
+</form>
+
+  </div>
+  
+  <footer class="py-3 my-4 footer2">
+
+    <p class="text-center text-body-secondary">© 2023 Mahendra Institute Of Technology, Inc . All rights reserved</p>
+  </footer>
+
+ 
